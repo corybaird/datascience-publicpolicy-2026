@@ -1,0 +1,14 @@
+name: my-binder-environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12 # or your preferred Python version
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - lxml
+  - wordcloud
+  - seaborn
+  - plotly
+  - altair
