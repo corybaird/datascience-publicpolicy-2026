@@ -21,8 +21,7 @@ Module 1: How to Run Statistical Software (3 weeks)
 
 
     * If software does not work run code online directly via this button
-      - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Data-Science-Public-Policy/graspp_2025_spring/HEAD)
-
+      - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/corybaird/datascience-publicpolicy-2026/HEAD)
 * **Tracking changes to code/downloading class page**
     * [**GitHub Account**](https://github.com/): Create account then "star" (Upper right corner) [class page](https://github.com/corybaird/datascience-publicpolicy-2026)
     * [**GitHub Desktop:**](https://desktop.github.com/) For collaboration on code/notebooks
