@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+archive/
+docs/hw/
 src/temp/
 **/.DS_Store
 __pycache__/
