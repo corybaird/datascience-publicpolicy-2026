@@ -1,0 +1,60 @@
+# Configuration for HW-1 Grading
+repository: "corybaird/datascience-publicpolicy-2026"
+notebook_dir: "notebooks/hw"
+grading_rules:
+  # Section 1.1 - CSV Reading
+  - id: "read_csv_democracy"
+    description: "1.1.1 Read democracy_gdp.csv with pd.read_csv"
+    check: "democracy_gdp"
+    points: 10
+
+  - id: "read_csv_ghg"
+    description: "1.1.2 Read ghg.csv with pd.read_csv"
+    check: "ghg"
+    points: 10
+
+  # Section 1.2 - API Download
+  - id: "worldbank_gdp"
+    description: "1.2.1 Call download_worldbank for GDP data"
+    check: "gdp_data"
+    points: 10
+
+  - id: "worldbank_pop"
+    description: "1.2.2 Call download_worldbank for population data"
+    check: "pop_data"
+    points: 10
+
+  # Section 2.1 - Column Selection
+  - id: "column_select"
+    description: "2.1 Select a column from democracy_gdp"
+    check: "democracy_gdp["
+    points: 10
+
+  # Section 2.2 - Filter Rows
+  - id: "unique_values"
+    description: "2.2 Show unique values with .unique()"
+    check: ".unique()"
+    points: 10
+
+  - id: "query_filter"
+    description: "2.2 Filter rows using .query()"
+    check: ".query("
+    points: 10
+
+  # Section 2.3 - Multiple Conditions
+  - id: "multi_condition"
+    description: "2.3 Filter with multiple conditions using & or |"
+    check: "& "
+    points: 10
+
+  # Section 2.4 - isin Filter
+  - id: "isin_filter"
+    description: "2.4 Filter using .isin()"
+    check: ".isin("
+    points: 10
+
+  # Section 2.6 - Rename
+  - id: "rename_columns"
+    description: "2.6 Rename columns using .rename()"
+    check: ".rename("
+    points: 10
