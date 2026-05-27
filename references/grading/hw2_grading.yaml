@@ -1,0 +1,73 @@
+# Configuration for HW-2 Grading
+repository: "corybaird/datascience-publicpolicy-2026"
+notebook_dir: "notebooks/hw/hw_2"
+grading_rules:
+  - id: "g7_list"
+    description: "A.1 Create G7 list"
+    check: "g7 ="
+    points: 10
+
+  - id: "show_info"
+    description: "A.1 Show info"
+    check: ".info("
+    points: 10
+
+  - id: "show_columns"
+    description: "A.2 Show column names"
+    check: ".columns"
+    points: 10
+
+  - id: "unique_countries"
+    description: "A.3 Show unique countries"
+    check: ".unique("
+    points: 10
+
+  - id: "rename_columns"
+    description: "1.A Rename column for country and value"
+    check: ".rename("
+    points: 10
+
+  - id: "query_japan"
+    description: "1.1 Create new data with only Japan"
+    check: ".query("
+    points: 10
+
+  - id: "set_index_jp"
+    description: "1.2 Set index as date"
+    check: ".set_index("
+    points: 10
+
+  - id: "drop_country"
+    description: "1.2 Drop country column"
+    check: ".drop("
+    points: 10
+
+  - id: "sort_index_jp"
+    description: "1.2 Sort index"
+    check: ".sort_index("
+    points: 10
+
+  - id: "query_vn_bond"
+    description: "2.1 Filter one country df_govt_bond"
+    check: ".query("
+    points: 10
+
+  - id: "query_vn_gdp"
+    description: "2.1 Filter one country df_gdp"
+    check: ".query("
+    points: 10
+
+  - id: "set_index_vn_gdp"
+    description: "2.1 Set index for df_gdp_vn"
+    check: ".set_index("
+    points: 10
+
+  - id: "set_index_vn_bond"
+    description: "2.1 Set index for df_govt_bond_vn"
+    check: ".set_index("
+    points: 10
+
+  - id: "merge_data"
+    description: "2.1 Merge data"
+    check: "pd.merge("
+    points: 10
