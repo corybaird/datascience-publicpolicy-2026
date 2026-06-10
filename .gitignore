@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 data/temp
 docs/tracking_progress/
-notebooks/hw/hw_2/hw_2_answers.ipynb
+#notebooks/hw/hw_2/hw_2_answers.ipynb
 reports/
 archive/
 docs/hw/
