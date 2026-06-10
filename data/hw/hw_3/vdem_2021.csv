@@ -1,0 +1,180 @@
+country_name,year,v2x_polyarchy,v2x_libdem
+Mexico,2021,0.624,0.371
+Suriname,2021,0.761,0.639
+Sweden,2021,0.9,0.866
+Switzerland,2021,0.896,0.851
+Ghana,2021,0.659,0.554
+South Africa,2021,0.725,0.609
+Japan,2021,0.824,0.736
+Burma/Myanmar,2021,0.102,0.02
+Russia,2021,0.245,0.094
+Albania,2021,0.526,0.438
+Egypt,2021,0.18,0.116
+Yemen,2021,0.116,0.033
+Colombia,2021,0.654,0.499
+Poland,2021,0.587,0.424
+Brazil,2021,0.69,0.531
+United States of America,2021,0.821,0.756
+Portugal,2021,0.884,0.81
+El Salvador,2021,0.403,0.156
+Bangladesh,2021,0.255,0.092
+Bolivia,2021,0.608,0.362
+Haiti,2021,0.33,0.204
+Honduras,2021,0.394,0.248
+Mali,2021,0.243,0.155
+Pakistan,2021,0.394,0.248
+Peru,2021,0.771,0.66
+Senegal,2021,0.714,0.558
+South Sudan,2021,0.137,0.058
+Sudan,2021,0.163,0.051
+Vietnam,2021,0.169,0.109
+Afghanistan,2021,0.144,0.041
+Argentina,2021,0.796,0.639
+Ethiopia,2021,0.29,0.136
+India,2021,0.398,0.307
+Kenya,2021,0.507,0.423
+North Korea,2021,0.083,0.014
+South Korea,2021,0.852,0.775
+Kosovo,2021,0.674,0.494
+Lebanon,2021,0.433,0.262
+Nigeria,2021,0.488,0.331
+Philippines,2021,0.411,0.271
+Tanzania,2021,0.366,0.324
+Taiwan,2021,0.82,0.711
+Thailand,2021,0.208,0.187
+Uganda,2021,0.274,0.18
+Venezuela,2021,0.215,0.056
+Benin,2021,0.39,0.271
+Bhutan,2021,0.574,0.482
+Burkina Faso,2021,0.634,0.456
+Cambodia,2021,0.19,0.059
+Indonesia,2021,0.545,0.398
+Mozambique,2021,0.367,0.244
+Nepal,2021,0.609,0.491
+Nicaragua,2021,0.195,0.034
+Niger,2021,0.523,0.401
+Zambia,2021,0.421,0.339
+Zimbabwe,2021,0.297,0.194
+Guinea,2021,0.258,0.098
+Ivory Coast,2021,0.435,0.233
+Mauritania,2021,0.391,0.195
+Canada,2021,0.843,0.749
+Australia,2021,0.828,0.779
+Botswana,2021,0.587,0.477
+Burundi,2021,0.181,0.067
+Cape Verde,2021,0.775,0.676
+Central African Republic,2021,0.343,0.176
+Chile,2021,0.841,0.777
+Costa Rica,2021,0.894,0.843
+Timor-Leste,2021,0.693,0.501
+Ecuador,2021,0.625,0.454
+France,2021,0.868,0.789
+Germany,2021,0.863,0.814
+Guatemala,2021,0.555,0.359
+Iran,2021,0.158,0.091
+Iraq,2021,0.374,0.218
+Ireland,2021,0.898,0.833
+Italy,2021,0.857,0.774
+Jordan,2021,0.257,0.249
+Latvia,2021,0.831,0.74
+Lesotho,2021,0.616,0.498
+Liberia,2021,0.616,0.408
+Malawi,2021,0.603,0.522
+Maldives,2021,0.582,0.424
+Mongolia,2021,0.609,0.495
+Morocco,2021,0.261,0.24
+Netherlands,2021,0.864,0.812
+Panama,2021,0.735,0.544
+Papua New Guinea,2021,0.455,0.355
+Qatar,2021,0.089,0.081
+Sierra Leone,2021,0.562,0.436
+Spain,2021,0.85,0.775
+Syria,2021,0.136,0.033
+Tunisia,2021,0.535,0.464
+Türkiye,2021,0.287,0.113
+Ukraine,2021,0.537,0.323
+United Kingdom,2021,0.857,0.781
+Uruguay,2021,0.852,0.789
+Algeria,2021,0.282,0.139
+Angola,2021,0.325,0.151
+Armenia,2021,0.724,0.532
+Azerbaijan,2021,0.193,0.066
+Belarus,2021,0.172,0.035
+Cameroon,2021,0.282,0.121
+Chad,2021,0.177,0.054
+China,2021,0.077,0.044
+Democratic Republic of the Congo,2021,0.342,0.14
+Republic of the Congo,2021,0.254,0.116
+Djibouti,2021,0.251,0.12
+Dominican Republic,2021,0.694,0.484
+Eritrea,2021,0.071,0.01
+Gabon,2021,0.368,0.199
+The Gambia,2021,0.507,0.417
+Georgia,2021,0.604,0.454
+Guinea-Bissau,2021,0.535,0.321
+Jamaica,2021,0.801,0.691
+Kazakhstan,2021,0.253,0.121
+Kyrgyzstan,2021,0.41,0.256
+Laos,2021,0.135,0.104
+Libya,2021,0.216,0.129
+Madagascar,2021,0.479,0.237
+Moldova,2021,0.752,0.618
+Namibia,2021,0.622,0.506
+Palestine/West Bank,2021,0.235,0.128
+Rwanda,2021,0.226,0.11
+Somalia,2021,0.161,0.111
+Sri Lanka,2021,0.572,0.393
+Eswatini,2021,0.12,0.095
+Tajikistan,2021,0.171,0.039
+Togo,2021,0.396,0.214
+Trinidad and Tobago,2021,0.791,0.672
+Turkmenistan,2021,0.15,0.033
+Palestine/Gaza,2021,0.128,0.053
+Somaliland,2021,0.406,0.25
+Uzbekistan,2021,0.204,0.078
+Austria,2021,0.854,0.784
+Bahrain,2021,0.134,0.063
+Barbados,2021,0.807,0.686
+Belgium,2021,0.897,0.827
+Bosnia and Herzegovina,2021,0.508,0.328
+Bulgaria,2021,0.665,0.549
+Comoros,2021,0.28,0.124
+Croatia,2021,0.747,0.641
+Cuba,2021,0.178,0.056
+Cyprus,2021,0.795,0.653
+Czechia,2021,0.789,0.698
+Denmark,2021,0.915,0.882
+Equatorial Guinea,2021,0.172,0.051
+Estonia,2021,0.9,0.853
+Fiji,2021,0.4,0.269
+Finland,2021,0.871,0.835
+Greece,2021,0.76,0.63
+Guyana,2021,0.498,0.335
+Hong Kong,2021,0.205,0.168
+Iceland,2021,0.836,0.745
+Israel,2021,0.722,0.639
+Kuwait,2021,0.301,0.274
+Lithuania,2021,0.793,0.732
+Luxembourg,2021,0.872,0.785
+North Macedonia,2021,0.592,0.389
+Malaysia,2021,0.432,0.3
+Malta,2021,0.77,0.605
+Mauritius,2021,0.532,0.423
+Montenegro,2021,0.534,0.432
+New Zealand,2021,0.874,0.813
+Norway,2021,0.892,0.843
+Oman,2021,0.174,0.14
+Paraguay,2021,0.578,0.427
+Romania,2021,0.766,0.611
+Sao Tome and Principe,2021,0.657,0.554
+Saudi Arabia,2021,0.015,0.045
+Serbia,2021,0.336,0.236
+Seychelles,2021,0.711,0.634
+Singapore,2021,0.395,0.329
+Slovakia,2021,0.839,0.757
+Slovenia,2021,0.715,0.624
+Solomon Islands,2021,0.658,0.501
+Vanuatu,2021,0.8,0.673
+United Arab Emirates,2021,0.1,0.084
+Hungary,2021,0.45,0.346
+Zanzibar,2021,0.279,0.227
