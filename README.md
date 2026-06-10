@@ -1,21 +1,47 @@
 ## Schedule
 
-### Module 1: Python Basics (3 weeks)
-- Technical themes:
-    - Running git, anaconda, vscode
-    - Understanding python notebooks (.ipynb)
-
 - Week 1 (Apr. 8): Introduction (no code)
 - Week 2 (Apr. 15): Coding Tools Basics
+  - [1-notebook-code-basics.ipynb](notebooks/week_2/1-notebook-code-basics.ipynb)
+  - [2-python-fundamentals.ipynb](notebooks/week_2/2-python-fundamentals.ipynb)
 - Week 3 (Apr. 22): Reading data
+  - [review.ipynb](notebooks/week_3/review.ipynb)
 - Week 4 (May 13): Visualizing, Merging Data
+  - [1-visualization_basics.ipynb](notebooks/week_4/1-visualization_basics.ipynb)
+  - [2-merging_practice.ipynb](notebooks/week_4/2-merging_practice.ipynb)
+- Week 5 (May 20): Advanced visualization
+  - [1-reshaping_data.ipynb](notebooks/week_5/1-reshaping_data.ipynb)
+- Week 6 (May 27): Fill in details
+  - [1-regression.ipynb](notebooks/week_6/1-regression.ipynb)
+  - Review:
+    - [review-libraries-functions.ipynb](notebooks/week_6/review/review-libraries-functions.ipynb)
+    - [review-variables.ipynb](notebooks/week_6/review/review-variables.ipynb)
+    - [review-github.ipynb](notebooks/week_6/review/review-github.ipynb)
+- Week 7 (June 3): Online catch up ("typhoon that wasn't day")
+  - [1-text-data.ipynb](notebooks/week_7/1-text-data.ipynb)
+- Week 8 (June 10): Project Structure & Coding Agents
+  - [1-project-structure-agents.ipynb](notebooks/week_8/1-project-structure-agents.ipynb)
 
-### Module 2: Python files and collaboration
-- Technical themes:
-    - Working with python files (.py) and git/github
-    - Introduction to coding agents
+## Individual Assignments
 
-- Week 5 (May 20): Advanced visualization and 
+### HW 1: Due April 22nd (Week 3)
+
+- Reading data (csv, api)
+- Data manipulation
+  - [hw_1.ipynb](notebooks/hw/hw_1.ipynb)
+  - [cory-baird.ipynb](notebooks/hw/cory-baird.ipynb)
+
+### HW 2: Due May 13th (Week 4)
+- Creating your own functions/tools
+- Visualization
+  - [hw_2.ipynb](notebooks/hw/hw_2/hw_2.ipynb)
+  - [hw_2_answers.ipynb](notebooks/hw/hw_2/hw_2_answers.ipynb)
+
+### HW 3: Due May 27th (Week 6)
+- Choosing your own data and analysis
+- Creating python files
+  - [hw_3.ipynb](notebooks/hw/hw_3/hw_3.ipynb)
+
 
 
 ## Group Assignments
@@ -35,24 +61,10 @@
 - Baseline: Present above analysis in youtube video 
 - Turn in white paper and/or slides and/or research paper and/or poster
     
-
 ### Final presentations: July 8 & 15
 - Class discussion of findings/videos
 - Each group will be assigned to discuss two other groups
  
-## Individual Assignments
-
-### HW 1: Due April 22nd (Week 3)
-- Reading data (csv, api)
-- Data manipulation
-
-### HW 2: Due May 13th (Week 4)
-- Ceating your own functions/tools
-- Visualization
-
-### HW 3: Due May 27th (Week 6)
-- Creating python files
-- Advanced visualization
 
 
 ## Necessary software
