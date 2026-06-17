@@ -5,15 +5,28 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.109.2",
+    "click>=8.4.1",
+    "en-core-web-sm",
     "jupyter>=1.1.1",
     "lxml>=6.0.2",
     "matplotlib>=3.10.9",
     "pandas>=3.0.2",
+    "pdfplumber>=0.11.10",
     "pyarrow>=24.0.0",
     "pypdf>=6.12.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
     "scikit-learn>=1.8.0",
     "scipy>=1.17.1",
     "seaborn>=0.13.2",
+    "spacy>=3.8.14",
     "statsmodels>=0.14.6",
+    "torch>=2.12.0",
+    "transformers>=5.12.1",
     "wordcloud>=1.9.6",
 ]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz" }
