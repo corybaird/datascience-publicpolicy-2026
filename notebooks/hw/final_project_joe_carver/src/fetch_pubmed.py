@@ -42,13 +42,19 @@ def get_scientific_citations(journal_name, year, csv_name, max_results=5,):
         f'NOT "Biography"[PT]'
     )
     
-    print(f"Searching PubMed with filters:\n{query}\n")
+    print(f"Searching PubMed with filters:\n{query}")
     
     try:
         # 1. Search for IDs using the filtered query
         search_handle = Entrez.esearch(db="pubmed", term=query, retmax=max_results)
         search_results = Entrez.read(search_handle)
         search_handle.close()
+
+        total_count = int(search_results["Count"])
+        if total_count == 0:
+            print('No records found')
+            return
+
         
         pmid_list = search_results["IdList"]
         if not pmid_list:
@@ -102,7 +108,7 @@ def get_scientific_citations(journal_name, year, csv_name, max_results=5,):
                         "Title": title,
                         "Pub types": '|'.join(pub_type_names),
                         "Author": author_name if author_name else None,
-                        "Affiliations": "|".join(affiliations) if affiliations else ["No affiliation"]
+                        "Affiliations": "|".join(affiliations) if affiliations else "No affiliation"
 
                         })
             else:
@@ -121,4 +127,4 @@ def get_scientific_citations(journal_name, year, csv_name, max_results=5,):
 
 if __name__ == "__main__":
     # Test with a journal known for having lots of editorials/news (like Nature)
-    get_scientific_citations(journal_name="Nature", year=2024, max_results=10, csv_name = "pubmed_citations.csv")
+    get_scientific_citations(journal_name="Nature", year=2024, max_results=1000, csv_name = "pubmed_citations.csv")
