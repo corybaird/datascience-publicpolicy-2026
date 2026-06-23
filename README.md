@@ -21,6 +21,12 @@
   - [1-text-data.ipynb](notebooks/week_7/1-text-data.ipynb)
 - Week 8 (June 10): Project Structure & Coding Agents
   - [1-project-structure-agents.ipynb](notebooks/week_8/1-project-structure-agents.ipynb)
+- Week 9 (June 17): NLP & Generative AI
+  - [1-spacy-transformers.ipynb](notebooks/week_9/1-spacy-transformers.ipynb)
+  - [2-ai-llm.ipynb](notebooks/week_9/2-ai-llm.ipynb)
+- Week 10 (June 24): Machine Learning & AI Loops
+  - [1-machine_learning.ipynb](notebooks/week_10/1-machine_learning.ipynb)
+  - [2-ai-loops.ipynb](notebooks/week_10/2-ai-loops.ipynb)
 
 ## Individual Assignments
 
@@ -41,6 +47,15 @@
 - Choosing your own data and analysis
 - Creating python files
   - [hw_3.ipynb](notebooks/hw/hw_3/hw_3.ipynb)
+
+### HW 4: Due July 15 
+
+#### Optional Final Project (A+ Grade Bump)
+- An optional individual assignment to submit your final project analysis, offering an opportunity for an A+ grade bump.
+  - [hw_4.ipynb](notebooks/hw/final_project/hw_4.ipynb): The basic template that imports data acquisition and manipulation logic from the `basic/` script directory.
+  - [hw_4_advanced.ipynb](notebooks/hw/final_project/hw_4_advanced.ipynb): The advanced template designed for projects utilizing Object Oriented Programming (OOP) classes and structures from the `advanced/` script directory.
+  - [hw_4_example.ipynb](notebooks/hw/final_project/hw_4_example.ipynb): A complete example implementation showcasing data loading, cleaning, and visualization pipelines.
+
 
 
 
