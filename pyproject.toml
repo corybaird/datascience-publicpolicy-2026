@@ -10,7 +10,11 @@ dependencies = [
     "en-core-web-sm",
     "jupyter>=1.1.1",
     "lxml>=6.0.2",
+<<<<<<< HEAD
+    "matplotlib>=3.10.8",
+=======
     "matplotlib>=3.10.9",
+>>>>>>> upstream/main
     "pandas>=3.0.2",
     "pdfplumber>=0.11.10",
     "pyarrow>=24.0.0",
