@@ -110,6 +110,7 @@ def get_scientific_citations(journal_name, year, max_results=5):
 
                     authors.append({
                         "PMID": pmid,
+                        'year': year,
                         "author": author_name if author_name else None,
                         "affiliations": "|".join(affiliations) if affiliations else "No affiliation"
                         })
