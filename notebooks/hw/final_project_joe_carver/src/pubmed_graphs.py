@@ -176,7 +176,7 @@ def create_cooccur_and_crosstab(all_authors):
     collaboration_counts.to_csv(PROCESSED_DATA_DIR / 'collab_counts.csv')
     norm_collab_counts.to_csv(PROCESSED_DATA_DIR / 'norm_collab_counts.csv')
 
-    return collaboration_counts, norm_collab_counts, co_occurrences, top_5
+    return collaboration_counts, norm_collab_counts, co_occurrences, top_5, filtered
 
 def pubmed_fig_5(norm_collab_counts, top_5):
     # transform normalized counts to long format for plotting
@@ -227,6 +227,53 @@ def pubmed_fig_5(norm_collab_counts, top_5):
         ### Other countries tend to have less solo-country publications. Solo-country publications are generally a minority.    
         """))
     
+def pubmed_fig_6(filtered):
+    plot_data = filtered.reset_index().drop_duplicates(subset=['PMID','primary_country'])
+    plot_series = plot_data['primary_country'].value_counts()[0:20]
+    plt.figure(figsize=(10,6))
+    sns.barplot(data=plot_series, color = '#457b9d')
+    plt.title('Top 20 countries by total number of publications, 2014-2026', fontsize = 18)
+    plt.ylabel('number of publications', fontsize = 14)
+    plt.xlabel('')
+    plt.grid(axis='y', linestyle='--', alpha=0.6)
+    plt.yticks(fontsize = 11)
+    plt.xticks(plot_series.index.unique(), rotation=90, fontsize = 11)
+    sns.despine()
+    plt.savefig(OUTPUT_DIR / 'fig_6_top_20_by_total_publications.png',
+                dpi = 300,
+                bbox_inches = 'tight',
+                transparent = True)
+    plt.show()
+    display(Markdown("""
+        ### Figure 6 takeaways: summing the number of publications each country has appeared on shows the USA
+        ### has by far the most affiliated papers for this time period, with the UK, Germany, and China following.
+        """))
+    
+def pubmed_fig_7(co_occurences):
+    plot_series = co_occurences.groupby('primary_country_target')['Count'].sum().sort_values(ascending=False)[0:20]
+    plt.figure(figsize=(10,6))
+    sns.barplot(data=plot_series, color = '#457b9d')
+    plt.title('Fig. 7: top 20 countries by total number of collaborations, 2014-2026', fontsize = 18)
+    plt.ylabel('number of collaborations', fontsize = 14)
+    plt.xlabel('')
+    plt.grid(axis='y', linestyle='--', alpha=0.6)
+    plt.yticks(fontsize = 11)
+    plt.xticks(plot_series.index.unique(), rotation=90, fontsize = 11)
+    sns.despine()
+    plt.savefig(OUTPUT_DIR / 'fig_7_top_20_by_total_collaborations.png',
+                dpi = 300,
+                bbox_inches = 'tight',
+                transparent = True)
+    plt.show()
+    display(Markdown("""
+        ### Figure 7 details: Collaborations were calculated by summing the number of times each country appears with another
+        ### country on a paper. For instance, if the USA appears with Japan on publication 1, and with Japan and the UK on publication 2,
+        ### that would count as three collaborations for the USA (Japan + Japan + UK), three for Japan (USA + USA + UK), 
+        ### and two for UK (Japan + USA). Even if a multiple authors appear from a single country on a paper, that is counted 
+        #### as one instance of that country for the paper.
+        ### Takeaways: certain countries like the UK and Germany have high number of collaborations relative to publication count.
+        """))
+    
 def run():
     cell_authors = pd.read_csv(PROCESSED_DATA_DIR / 'cell_processed_author_data.csv')
     nature_authors = pd.read_csv(PROCESSED_DATA_DIR / 'nature_processed_author_data.csv')
@@ -235,5 +282,7 @@ def run():
     pubmed_fig_2(all_authors)
     pubmed_fig_3(all_authors)
     pubmed_fig_4(all_authors)
-    collaboration_counts, norm_collab_counts, co_occurrences, top_5 = create_cooccur_and_crosstab(all_authors)
+    collaboration_counts, norm_collab_counts, co_occurrences, top_5, filtered = create_cooccur_and_crosstab(all_authors)
     pubmed_fig_5(norm_collab_counts, top_5)
+    pubmed_fig_6(filtered)
+    pubmed_fig_7(co_occurrences)
