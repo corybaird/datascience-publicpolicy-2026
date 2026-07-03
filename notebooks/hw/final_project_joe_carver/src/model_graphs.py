@@ -192,11 +192,11 @@ def model_fig_13(unesco_pubmed, logx_vars, logy_vars):
                "Outbound student numbers once again show less correlation.")
     display(Markdown(comment))
 
-def model_fig_14(unesco_pubmed, logx_vars, y_vars):
-    unesco_pubmed, logx_vars, y_vars = unesco_pubmed, logx_vars, y_vars
+def model_fig_14(unesco_pubmed, logx_vars, logy_vars):
+    unesco_pubmed, logx_vars, y_vars = unesco_pubmed, logx_vars, logy_vars
     fig, axes = plt.subplots(nrows = 1, ncols = 3, figsize = (10,4))
     axes = axes.flatten()
-    y_var = y_vars[2]
+    y_var = logy_vars[2]
     highlights = unesco_pubmed.loc[highlight_countries]
     for i, x_var in enumerate(logx_vars):
             ax = axes[i]
