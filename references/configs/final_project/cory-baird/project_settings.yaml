@@ -1,0 +1,9 @@
+# Example configuration for final project
+repository: "corybaird/datascience-publicpolicy-2026"
+entity_column: "country"
+date_column: "year"
+target_variable: "gdp_growth"
+independent_variables:
+  - "debt_change_lag1"
+  - "gdp_growth_lag1"
+  - "gov_revenue_gdp"

@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+notebooks/week_11/data
+temp/
 data/temp
 docs/tracking_progress/
 #notebooks/hw/hw_2/hw_2_answers.ipynb
