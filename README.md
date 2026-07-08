@@ -11,13 +11,13 @@
   - [2-merging_practice.ipynb](notebooks/week_4/2-merging_practice.ipynb)
 - Week 5 (May 20): Advanced visualization
   - [1-reshaping_data.ipynb](notebooks/week_5/1-reshaping_data.ipynb)
-- Week 6 (May 27): Fill in details
+- Week 6 (May 27): Regression & Coding Review
   - [1-regression.ipynb](notebooks/week_6/1-regression.ipynb)
   - Review:
     - [review-libraries-functions.ipynb](notebooks/week_6/review/review-libraries-functions.ipynb)
     - [review-variables.ipynb](notebooks/week_6/review/review-variables.ipynb)
     - [review-github.ipynb](notebooks/week_6/review/review-github.ipynb)
-- Week 7 (June 3): Online catch up ("typhoon that wasn't day")
+- Week 7 (June 3): Text Data
   - [1-text-data.ipynb](notebooks/week_7/1-text-data.ipynb)
 - Week 8 (June 10): Project Structure & Coding Agents
   - [1-project-structure-agents.ipynb](notebooks/week_8/1-project-structure-agents.ipynb)
@@ -27,6 +27,8 @@
 - Week 10 (June 24): Machine Learning & AI Loops
   - [1-machine_learning.ipynb](notebooks/week_10/1-machine_learning.ipynb)
   - [2-ai-loops.ipynb](notebooks/week_10/2-ai-loops.ipynb)
+- Week 11 (July 1): Review
+  - [1-review.ipynb](notebooks/week_11/1-review.ipynb)
 
 ## Individual Assignments
 
@@ -48,7 +50,7 @@
 - Creating python files
   - [hw_3.ipynb](notebooks/hw/hw_3/hw_3.ipynb)
 
-### HW 4: Due July 15 
+### HW 4: Due July 22 
 
 #### Optional Final Project (A+ Grade Bump)
 - An optional individual assignment to submit your final project analysis, offering an opportunity for an A+ grade bump.
@@ -80,7 +82,7 @@
 - Class discussion of findings/videos
 - Each group will be assigned to discuss two other groups
  
-
+### Final deliverable: July 22
 
 ## Necessary software
 
