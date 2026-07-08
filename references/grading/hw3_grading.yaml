@@ -1,0 +1,5 @@
+repository: "corybaird/datascience-publicpolicy-2026"
+notebook_dir: "notebooks/hw/hw_3"
+checklist_path: "reports/hw/student_checklist.csv"
+output_checklist_path: "reports/hw/student_checklist_update.csv"
+output_report_path: "reports/hw/hw_3.md"
