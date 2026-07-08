@@ -8,6 +8,7 @@ dependencies = [
     "anthropic>=0.109.2",
     "click>=8.4.1",
     "en-core-web-sm",
+    "gradio>=6.19.0",
     "jupyter>=1.1.1",
     "lxml>=6.0.2",
     "matplotlib>=3.10.9",
@@ -20,9 +21,10 @@ dependencies = [
     "requests>=2.33.1",
     "scikit-learn>=1.8.0",
     "scipy>=1.17.1",
+    "sdmx1>=2.26.0",
     "seaborn>=0.13.2",
     "spacy>=3.8.14",
-    "stats-transformer",
+    "stats-transformer>=1.0.0",
     "statsmodels>=0.14.6",
     "torch>=2.12.0",
     "transformers>=5.12.1",
@@ -31,4 +33,3 @@ dependencies = [
 
 [tool.uv.sources]
 en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz" }
-stats-transformer = { path = "../stats-transformer" }

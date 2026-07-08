@@ -3,7 +3,7 @@ from pathlib import Path
 
 def load_jst_data():
     project_root = Path(__file__).resolve().parents[4]
-    source_path = project_root.parent / "macroeconomics-data/data/panel/annual/jst_panel.parquet"
+    source_path = project_root / "data/final_project/cory-baird/jst_panel.parquet"
     if not source_path.exists():
         raise FileNotFoundError(f"Source JST data not found at {source_path}")
     df = pd.read_parquet(source_path)
@@ -15,7 +15,7 @@ def load_jst_data():
 
 def load_weo_revenue():
     project_root = Path(__file__).resolve().parents[4]
-    source_path = project_root.parent / "macroeconomics-data/data/raw/annual/economic/imf_weo_countries.parquet"
+    source_path = project_root / "data/final_project/cory-baird/imf_weo_countries.parquet"
     if not source_path.exists():
         raise FileNotFoundError(f"Source WEO data not found at {source_path}")
     df = pd.read_parquet(source_path)
