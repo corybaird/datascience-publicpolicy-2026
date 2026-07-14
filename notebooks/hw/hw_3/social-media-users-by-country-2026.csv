@@ -1,0 +1,232 @@
+"flagCode","country","SocialMediaUsers_2025","SocialMediaUsersPctOfPopulation_2025"
+"CN","China",1280000000,90.3
+"IN","India",500000000,34.1
+"US","United States",254000000,73
+"ID","Indonesia",180000000,62.9
+"BR","Brazil",150000000,70.4
+"RU","Russia",106000000,73.7
+"MX","Mexico",99000000,74.9
+"JP","Japan",99000000,80.5
+"PH","Philippines",95800000,81.9
+"PK","Pakistan",79900000,31.2
+"VN","Vietnam",79000000,77.6
+"YT","Mayotte",78900000,23.2
+"DE","Germany",64700000,77.1
+"BD","Bangladesh",64000000,36.3
+"TR","Turkey",62300000,70.9
+"TH","Thailand",56600000,79.1
+"GB","United Kingdom",55500000,79.7
+"EG","Egypt",51600000,43.4
+"FR","France",51500000,77.2
+"KR","South Korea",49300000,95.4
+"IR","Iran",48000000,51.8
+"NG","Nigeria",47800000,20
+"IT","Italy",41200000,69.7
+"IQ","Iraq",40100000,84.9
+"ES","Spain",39000000,81.4
+"SA","Saudi Arabia",38600000,111
+"CO","Colombia",37700000,70.4
+"CA","Canada",33000000,82.1
+"AR","Argentina",32900000,71.7
+"MY","Malaysia",30700000,85
+"ZA","South Africa",29100000,44.9
+"PE","Peru",28300000,82
+"DZ","Algeria",27500000,57.7
+"PL","Poland",27100000,71.3
+"MH","Marshall Islands",24200000,67.1
+"UA","Ukraine",23000000,58.5
+"MA","Morocco",22800000,59.1
+"MM","Myanmar",21000000,38.2
+"AU","Australia",21000000,77.7
+"KE","Kenya",18400000,31.8
+"TW","Taiwan",18100000,78.4
+"KZ","Kazakhstan",16900000,80.8
+"VE","Venezuela",16600000,58.1
+"CL","Chile",16200000,81.7
+"EC","Ecuador",15400000,84
+"NL","Netherlands",15300000,83.3
+"NP","Nepal",14800000,50
+"UZ","Uzbekistan",14100000,37.9
+"KH","Cambodia",14000000,77.9
+"RO","Romania",12900000,68.3
+"AE","United Arab Emirates",12500000,110
+"GT","Guatemala",11700000,62.6
+"CD","DR Congo",10400000,9.2
+"ET","Ethiopia",9800000,7.2
+"BO","Bolivia",9430000,74.7
+"BE","Belgium",9080000,77.2
+"LK","Sri Lanka",9000000,38.7
+"GH","Ghana",8590000,24.4
+"SE","Sweden",8580000,80.4
+"CI","Ivory Coast",8400000,25.5
+"CZ","Czechia",8080000,76.4
+"TZ","Tanzania",7950000,11.2
+"DO","Dominican Republic",7890000,68.3
+"TN","Tunisia",7830000,63.3
+"BY","Belarus",7640000,85
+"AZ","Azerbaijan",7610000,73.1
+"PT","Portugal",7590000,72.9
+"GR","Greece",7400000,74.5
+"CH","Switzerland",7270000,81
+"IL","Israel",7010000,73.4
+"AT","Austria",6980000,76.6
+"HU","Hungary",6840000,71.1
+"JO","Jordan",6800000,59.2
+"LY","Libya",6700000,89.6
+"YE","Yemen",6670000,15.9
+"CU","Cuba",6560000,60.1
+"HK","Hong Kong",6240000,84.4
+"SD","Sudan",6060000,11.6
+"CM","Cameroon",5900000,19.6
+"AO","Angola",5500000,14
+"SN","Senegal",5420000,28.5
+"SG","Singapore",5330000,90.6
+"HN","Honduras",5260000,47.6
+"AF","Afghanistan",5000000,11.3
+"RS","Serbia",4830000,72.3
+"DK","Denmark",4740000,78.9
+"PY","Paraguay",4650000,66.1
+"LA","Laos",4600000,58.2
+"LB","Lebanon",4580000,78.1
+"BG","Bulgaria",4500000,67.1
+"KW","Kuwait",4440000,87.9
+"NO","Norway",4390000,77.9
+"SV","El Salvador",4330000,67.9
+"IE","Ireland",4260000,80.1
+"NZ","New Zealand",4240000,80.6
+"NI","Nicaragua",4210000,59.9
+"MG","Madagascar",4150000,12.6
+"MZ","Mozambique",4100000,11.4
+"ZM","Zambia",4100000,18.6
+"FI","Finland",4100000,72.9
+"CR","Costa Rica",4060000,78.7
+"BF","Burkina Faso",3900000,16.1
+"KG","Kyrgyzstan",3900000,53.3
+"SK","Slovakia",3900000,71.4
+"GN","Guinea",3700000,24.4
+"SO","Somalia",3510000,17.7
+"OM","Oman",3440000,62.1
+"PA","Panama",3180000,69.3
+"GE","Georgia",3050000,80.1
+"HT","Haiti",2950000,24.7
+"QA","Qatar",2950000,94.3
+"HR","Croatia",2770000,72.1
+"MN","Mongolia",2700000,76.5
+"ZW","Zimbabwe",2600000,15.3
+"UY","Uruguay",2590000,76.5
+"LT","Lithuania",2520000,89.5
+"BJ","Benin",2500000,16.8
+"PR","Puerto Rico",2440000,75.5
+"UG","Uganda",2400000,4.6
+"ML","Mali",2400000,9.5
+"MW","Malawi",2400000,10.7
+"TD","Chad",2380000,11.3
+"PS","Palestine",2300000,41
+"BA","Bosnia and Herzegovina",2200000,70.2
+"TJ","Tajikistan",2050000,18.9
+"MD","Moldova",1880000,63
+"MR","Mauritania",1870000,34.9
+"JM","Jamaica",1810000,63.8
+"AM","Armenia",1650000,56
+"SI","Slovenia",1570000,74.2
+"PG","Papua New Guinea",1500000,13.9
+"LV","Latvia",1420000,76.8
+"BW","Botswana",1400000,54.4
+"RW","Rwanda",1350000,9.2
+"AL","Albania",1350000,48.8
+"BH","Bahrain",1310000,79.4
+"SL","Sierra Leone",1300000,14.7
+"BI","Burundi",1200000,8.3
+"CG","Republic of the Congo",1200000,18.4
+"LR","Liberia",1100000,19.1
+"MK","North Macedonia",1030000,56.8
+"EE","Estonia",1010000,75.4
+"SS","South Sudan",997000,8.1
+"TT","Trinidad and Tobago",974000,64.4
+"MU","Mauritius",886000,69.9
+"GA","Gabon",850000,32.6
+"NA","Namibia",797000,25.6
+"NE","Niger",772000,2.7
+"CY","Cyprus",760000,55.3
+"TL","Timor-Leste",687000,48.3
+"LS","Lesotho",653000,27.5
+"TG","Togo",644000,6.6
+"GW","Guinea-Bissau",580000,25.6
+"GY","Guyana",577000,69
+"FJ","Fiji",569000,60.9
+"RE","Reunion",554000,62.7
+"SZ","Eswatini",513000,40.7
+"GM","Gambia",493000,17.4
+"BT","Bhutan",485000,60.8
+"ME","Montenegro",445000,70.6
+"TM","Turkmenistan",388000,5.1
+"MV","Maldives",383000,72.3
+"MT","Malta",375000,68.7
+"SR","Suriname",362000,56.4
+"MO","Macau",335000,46.4
+"IS","Iceland",335000,83.9
+"LU","Luxembourg",313000,45.9
+"BN","Brunei",300000,64.1
+"KM","Comoros",277000,31.2
+"BS","Bahamas",273000,67.5
+"CV","Cape Verde",263000,49.8
+"BZ","Belize",238000,56.1
+"DJ","Djibouti",234000,19.7
+"CF","Central African Republic",230000,4.1
+"SB","Solomon Islands",205000,24.3
+"BB","Barbados",193000,68.3
+"PF","French Polynesia",188000,66.5
+"GQ","Equatorial Guinea",178000,9.1
+"GP","Guadeloupe",172000,46.1
+"MQ","Martinique",158000,46.6
+"NC","New Caledonia",150000,50.7
+"VU","Vanuatu",143000,42.4
+"WS","Samoa",114000,51.9
+"CW","Curacao",108000,58.1
+"GU","Guam",105000,62.1
+"LC","Saint Lucia",93700,52
+"GF","French Guiana",91800,29.1
+"AW","Aruba",88000,81.4
+"ST","Sao Tome and Principe",73200,30.3
+"SC","Seychelles",72200,54.1
+"TO","Tonga",68900,66.5
+"GD","Grenada",67100,57.1
+"VC","Saint Vincent and the Grenadines",64000,64.1
+"KI","Kiribati",63000,46
+"AG","Antigua and Barbuda",60600,64.3
+"JE","Jersey",54400,52.3
+"KY","Cayman Islands",53500,70.2
+"IM","Isle of Man",49100,58.4
+"AD","Andorra",47500,57.1
+"VI","United States Virgin Islands",46200,55
+"FM","Micronesia",43500,38.2
+"GL","Greenland",39300,70.5
+"GG","Guernsey",38200,59.2
+"BM","Bermuda",37200,57.6
+"FO","Faroe Islands",36900,65.7
+"DM","Dominica",35700,54.3
+"TC","Turks and Caicos Islands",35700,76.1
+"KN","Saint Kitts and Nevis",32800,70
+"SX","Sint Maarten",31500,71.4
+"AS","American Samoa",28500,62.2
+"MP","Northern Mariana Islands",27200,62.7
+"VG","British Virgin Islands",26000,65.3
+"GI","Gibraltar",22300,55.3
+"ER","Eritrea",21200,0.6
+"PW","Palau",15400,87.2
+"MF","Saint Martin",12500,50.5
+"CK","Cook Islands",12000,90.9
+"LI","Liechtenstein",11100,27.5
+"MC","Monaco",10400,27
+"AI","Anguilla",10100,68.5
+"NR","Nauru",9450,78.5
+"BL","Saint Barthelemy",9350,81.7
+"SM","San Marino",7250,21.6
+"PM","Saint Pierre and Miquelon",4550,81.8
+"TV","Tuvalu",3550,37.5
+"WF","Wallis and Futuna",2900,26
+"FK","Falkland Islands",2900,83.6
+"MS","Montserrat",1700,39.1
+"TK","Tokelau",1050,39.9
+"NU","Niue",950,52.2
+,"Total",4688590350,
