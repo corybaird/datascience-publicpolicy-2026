@@ -1,0 +1,19 @@
+project:
+  name: skilled_immigration
+  title: Parliamentary Attention and Stance toward Skilled Immigration in Japan, 2012-2024
+paths:
+  raw_dir: data/final_project/skilled_immigration/raw
+  processed_dir: data/final_project/skilled_immigration/processed
+  figures_dir: notebooks/hw/final_project/figures/advanced
+files:
+  annual: annual_speech_counts.csv
+  stance: stance_summary.csv
+  concentration: concentration_summary.csv
+  correlation: geographic_correlation.csv
+model:
+  dependent: n_speeches
+  independent: year_centered
+visualization:
+  dpi: 180
+  rolling_window: 3
+  format: svg
