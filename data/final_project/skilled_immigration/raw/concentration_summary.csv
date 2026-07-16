@@ -1,0 +1,3 @@
+level,n_speakers_or_prefectures,top1_share_pct,top3_share_pct,gini
+national_anti_speakers,333,6.2,11.6,0.619
+prefecture_median,43,51.9,94.7,0.417
