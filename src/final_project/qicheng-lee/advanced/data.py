@@ -16,7 +16,7 @@ class DataAcquisition:
 
         df = pd.read_csv(csv_path)
 
-        dest_dir = project_root / "data/final_project/qicheng-lee"
+        dest_dir = project_root / "data/final_project/qicheng-lee/raw"
         dest_dir.mkdir(parents=True, exist_ok=True)
         dest_file = dest_dir / "annual_patents_raw.csv"
         df.to_csv(dest_file, index=False)
