@@ -111,7 +111,7 @@ class DataManipulation:
 
     def run(self):
         project_root = Path(__file__).resolve().parents[4]
-        raw_file = project_root / "data/final_project/qicheng-lee/annual_patents_raw.csv"
+        raw_file = project_root / "data/final_project/qicheng-lee/raw/annual_patents_raw.csv"
         if not raw_file.exists():
             raise FileNotFoundError(f"{raw_file} not found. Run download stage first.")
 
