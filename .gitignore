@@ -2,6 +2,7 @@
 notebooks/hw/final_project/qicheng-lee/uspto_annualized-patent-data.csv
 notebooks/hw/final_project/qicheng-lee/*.pkl
 data/final_project/qicheng-lee/raw/name_dataset.zip
+data/final_project/qicheng-lee/raw/annual_patents_raw.csv
 
 # Byte-compiled / optimized / DLL files
 notebooks/week_11/data
