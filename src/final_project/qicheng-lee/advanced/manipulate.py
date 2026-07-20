@@ -16,6 +16,14 @@ all_letters = string.ascii_letters + " .,;'-" + "àáâãäåæçèéêëìíî�
 n_letters = len(all_letters)
 nationalities = ['CN','CZ','ES','FI','FR','GB','GE','GM','GR','HU','IN','IR','IS','IT','JP','KR','LT','NG','PL','PT','SA','SE','TR']
 
+NATIONALITY_NAMES = {
+    'CN': 'Chinese', 'CZ': 'Slavic', 'ES': 'Spanish', 'FI': 'Finnish', 'FR': 'French',
+    'GB': 'English', 'GE': 'Georgian', 'GM': 'Germanic', 'GR': 'Greek', 'HU': 'Hungarian',
+    'IN': 'Indian', 'IR': 'Persian', 'IS': 'Icelandic', 'IT': 'Italian', 'JP': 'Japanese',
+    'KR': 'Korean', 'LT': 'Lithuanian', 'NG': 'Nigerian', 'PL': 'Polish', 'PT': 'Portuguese',
+    'SA': 'Arabic', 'SE': 'Nordic', 'TR': 'Turkish',
+}
+
 VALID_STATES = {
     "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD",
     "MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC",
@@ -138,6 +146,22 @@ class DataManipulation:
             predictions.append(self.predictor.predict(row["first_name"], row["last_name"]))
         unique_inv["predicted_label"] = predictions
         unique_inv["nationality_bucket"] = unique_inv["predicted_label"].apply(bucket_nationality)
+
+        # Descriptive-only: full 23-category composition of the classified inventor
+        # pool, nationwide. Not used in the regression (which stays on the collapsed
+        # domestic/chinese/indian/other_foreign buckets) - this is purely so the
+        # write-up can show which groups are actually largest in the data, rather
+        # than asserting it.
+        label_counts = unique_inv["predicted_label"].dropna().value_counts()
+        breakdown = label_counts.rename_axis("nationality_code").reset_index(name="inventor_count")
+        breakdown["share"] = breakdown["inventor_count"] / breakdown["inventor_count"].sum()
+        breakdown["nationality_name"] = breakdown["nationality_code"].map(NATIONALITY_NAMES)
+
+        clean_dir = project_root / "data/final_project/qicheng-lee/clean"
+        clean_dir.mkdir(parents=True, exist_ok=True)
+        breakdown_file = clean_dir / "nationality_breakdown.csv"
+        breakdown.to_csv(breakdown_file, index=False)
+        print(f"Nationality breakdown saved to {breakdown_file.relative_to(project_root)} with shape {breakdown.shape}")
 
         long_df = long_df.merge(unique_inv[["inventor_id", "nationality_bucket"]], on="inventor_id", how="left")
         long_df = long_df.dropna(subset=["nationality_bucket"])

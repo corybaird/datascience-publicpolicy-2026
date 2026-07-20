@@ -6,7 +6,7 @@ from pathlib import Path
 class EconometricModeling:
     def run(self):
         project_root = Path(__file__).resolve().parents[4]
-        data_file = project_root / "data/final_project/qicheng-lee/state_cross_section.csv"
+        data_file = project_root / "data/final_project/qicheng-lee/clean/state_cross_section.csv"
         if not data_file.exists():
             raise FileNotFoundError(f"{data_file} not found. Run manipulate stage first.")
 

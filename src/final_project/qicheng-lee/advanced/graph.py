@@ -7,7 +7,8 @@ from pathlib import Path
 class DataVisualization:
     def run(self):
         project_root = Path(__file__).resolve().parents[4]
-        data_file = project_root / "data/final_project/qicheng-lee/state_cross_section.csv"
+        clean_dir = project_root / "data/final_project/qicheng-lee/clean"
+        data_file = clean_dir / "state_cross_section.csv"
         if not data_file.exists():
             raise FileNotFoundError(f"{data_file} not found. Run manipulate stage first.")
 
@@ -37,8 +38,27 @@ class DataVisualization:
         plt.savefig(fig2)
         plt.close()
 
+        # Descriptive-only: full name-inferred nationality composition of the
+        # inventor pool, nationwide. Not used in the regression (that stays on
+        # the aggregate share_foreign) - this exists so the write-up can show
+        # which groups are actually largest in the data rather than asserting it.
+        figs = [fig1, fig2]
+        breakdown_file = clean_dir / "nationality_breakdown.csv"
+        if breakdown_file.exists():
+            breakdown = pd.read_csv(breakdown_file).sort_values("inventor_count", ascending=False)
+            plt.figure(figsize=(10, 8))
+            sns.barplot(data=breakdown, y="nationality_name", x="share", color="steelblue")
+            plt.title("Name-Inferred Nationality Composition of US Patent Inventors (2025)")
+            plt.xlabel("Share of Classified Inventors (Descriptive Only)")
+            plt.ylabel("Name-Inferred Nationality")
+            plt.tight_layout()
+            fig3 = dest_dir / "nationality_breakdown.png"
+            plt.savefig(fig3)
+            plt.close()
+            figs.append(fig3)
+
         print(f"Figures saved to {dest_dir.relative_to(project_root)}")
-        return [fig1, fig2]
+        return figs
 
 
 if __name__ == "__main__":
