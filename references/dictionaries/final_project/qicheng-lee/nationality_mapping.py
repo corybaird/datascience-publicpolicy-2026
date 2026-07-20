@@ -1,7 +1,5 @@
 NATIONALITY_GROUPS = {
     "domestic": ["GB"],
-    "chinese": ["CN"],
-    "indian": ["IN"],
 }
 
 
@@ -11,4 +9,4 @@ def bucket_nationality(label):
     for bucket, labels in NATIONALITY_GROUPS.items():
         if label in labels:
             return bucket
-    return "other_foreign"
+    return "foreign"

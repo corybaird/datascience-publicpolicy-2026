@@ -149,9 +149,8 @@ class DataManipulation:
 
         # Descriptive-only: full 23-category composition of the classified inventor
         # pool, nationwide. Not used in the regression (which stays on the collapsed
-        # domestic/chinese/indian/other_foreign buckets) - this is purely so the
-        # write-up can show which groups are actually largest in the data, rather
-        # than asserting it.
+        # binary domestic/foreign split) - this is purely so the write-up can show
+        # which groups are actually largest in the data, rather than asserting it.
         label_counts = unique_inv["predicted_label"].dropna().value_counts()
         breakdown = label_counts.rename_axis("nationality_code").reset_index(name="inventor_count")
         breakdown["share"] = breakdown["inventor_count"] / breakdown["inventor_count"].sum()
@@ -181,14 +180,12 @@ class DataManipulation:
         )
         state_panel = state_panel.merge(bucket_counts, on="state", how="left")
 
-        for bucket in ["domestic", "chinese", "indian", "other_foreign"]:
+        for bucket in ["domestic", "foreign"]:
             if bucket not in state_panel.columns:
                 state_panel[bucket] = 0
             state_panel[bucket] = state_panel[bucket].fillna(0)
 
-        state_panel["share_foreign"] = 1 - (state_panel["domestic"] / state_panel["inventor_count"])
-        state_panel["share_chinese"] = state_panel["chinese"] / state_panel["inventor_count"]
-        state_panel["share_indian"] = state_panel["indian"] / state_panel["inventor_count"]
+        state_panel["share_foreign"] = state_panel["foreign"] / state_panel["inventor_count"]
         state_panel["log_patents"] = np.log(state_panel["patent_count"])
         state_panel["log_inventor_count"] = np.log(state_panel["inventor_count"])
 
