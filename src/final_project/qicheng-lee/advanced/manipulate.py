@@ -168,7 +168,7 @@ class DataManipulation:
         state_panel["log_patents"] = np.log(state_panel["patent_count"])
         state_panel["log_inventor_count"] = np.log(state_panel["inventor_count"])
 
-        dest_dir = project_root / "data/final_project/qicheng-lee"
+        dest_dir = project_root / "data/final_project/qicheng-lee/clean"
         dest_file = dest_dir / "state_cross_section.csv"
         state_panel.to_csv(dest_file, index=False)
         print(f"Data processed and saved to {dest_file.relative_to(project_root)} with shape {state_panel.shape}")
