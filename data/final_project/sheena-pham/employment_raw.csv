@@ -1,0 +1,623 @@
+ref_area.label,sex.label,classif1.label,time,obs_value
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 01 - Commissioned armed forces officers",2025,1.483
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 02 - Non-commissioned armed forces officers",2025,0.239
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 03 - Armed forces occupations, other ranks",2025,3.381
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2025,91.048
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2025,232.025
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2025,419.023
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2025,243.25
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2025,351.684
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2025,221.484
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2025,221.569
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2025,335.654
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2025,309.407
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2025,160.185
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2025,183.482
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2025,70.282
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2025,352.367
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2025,208.979
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2025,70.591
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2025,69.042
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2025,78.79
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2025,158.806
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2025,32.903
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2025,178.924
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2025,338.955
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2025,161.314
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2025,156.244
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2025,201.19
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2025,6.883
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2025,532.829
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2025,365.099
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2025,29.293
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2025,264.929
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2025,120.76
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2025,158.7
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2025,21.19
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2025,537.337
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2025,98.591
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2025,67.55
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2025,314.061
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2025,107.53
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2025,88.855
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 01 - Commissioned armed forces officers",2025,0.288
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 02 - Non-commissioned armed forces officers",2025,0.018
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 03 - Armed forces occupations, other ranks",2025,0.557
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2025,43.447
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2025,228.804
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2025,204.753
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2025,209.903
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2025,140.342
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2025,618.257
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2025,519.65
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2025,413.504
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2025,92.327
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2025,289.694
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2025,40.589
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2025,199.011
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2025,569.092
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2025,240.543
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2025,20.038
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2025,293.28
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2025,221.355
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2025,332.228
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2025,50.932
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2025,394.03
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2025,564.236
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2025,642.282
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2025,54.252
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2025,51.112
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2025,0.502
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2025,19.68
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2025,11.553
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2025,8.609
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2025,9.08
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2025,44.334
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2025,71.036
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2025,7.344
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2025,53.802
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2025,131.382
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2025,27.174
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2025,86.416
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2025,91.137
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2025,16.389
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 01 - Commissioned armed forces officers",2024,1.038
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 02 - Non-commissioned armed forces officers",2024,0.293
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 03 - Armed forces occupations, other ranks",2024,3.302
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2024,84.925
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2024,239.028
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2024,394.967
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2024,243.524
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2024,340.207
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2024,213.29
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2024,200.143
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2024,352.406
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2024,311.682
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2024,163.226
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2024,176.556
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2024,68.264
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2024,362.779
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2024,205.27
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2024,68.399
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2024,56.463
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2024,82.882
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2024,167.435
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2024,31.066
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2024,170.698
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2024,330.268
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2024,139.542
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2024,140.15
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2024,215.024
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2024,5.79
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2024,536.708
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2024,360.81
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2024,23.712
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2024,262.582
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2024,118.079
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2024,164.975
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2024,15.901
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2024,545.728
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2024,106.466
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2024,73.707
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2024,324.913
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2024,103.166
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2024,93.607
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 01 - Commissioned armed forces officers",2024,0.345
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 02 - Non-commissioned armed forces officers",2024,0.019
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 03 - Armed forces occupations, other ranks",2024,0.681
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2024,44.557
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2024,223.423
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2024,199.219
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2024,222.095
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2024,126.225
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2024,580.412
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2024,493.865
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2024,395.97
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2024,85.735
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2024,274.948
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2024,37.769
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2024,188.634
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2024,566.327
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2024,232.478
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2024,18.401
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2024,288.524
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2024,238.831
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2024,352.707
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2024,50.323
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2024,384.161
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2024,556.499
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2024,621.951
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2024,47.423
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2024,59.619
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2024,0.441
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2024,15.248
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2024,12.965
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2024,10.28
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2024,10.941
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2024,44.096
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2024,74.157
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2024,6.337
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2024,45.617
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2024,131.082
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2024,30.564
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2024,95.294
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2024,101.0
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2024,16.173
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2023,91.514
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2023,231.123
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2023,398.083
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2023,249.728
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2023,330.796
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2023,198.817
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2023,184.953
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2023,355.366
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2023,292.537
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2023,156.116
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2023,179.955
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2023,65.289
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2023,357.548
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2023,189.746
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2023,62.299
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2023,57.086
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2023,78.208
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2023,155.842
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2023,32.788
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2023,162.372
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2023,348.439
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2023,125.357
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2023,141.332
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2023,206.959
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2023,5.478
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2023,528.596
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2023,358.78
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2023,28.563
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2023,258.808
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2023,116.247
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2023,172.251
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2023,17.956
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2023,550.665
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2023,110.433
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2023,72.3
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2023,313.695
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2023,101.038
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2023,93.661
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2023,39.732
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2023,222.774
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2023,196.303
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2023,218.876
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2023,131.925
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2023,570.068
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2023,472.914
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2023,385.141
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2023,79.842
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2023,248.919
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2023,37.536
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2023,195.958
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2023,554.718
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2023,214.054
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2023,18.589
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2023,307.869
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2023,234.774
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2023,325.994
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2023,56.68
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2023,391.2
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2023,561.356
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2023,571.185
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2023,45.963
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2023,58.291
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2023,0.775
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2023,16.464
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2023,9.599
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2023,12.696
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2023,9.96
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2023,45.053
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2023,70.285
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2023,5.189
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2023,46.255
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2023,117.706
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2023,30.916
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2023,84.808
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2023,98.373
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2023,12.986
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 01 - Commissioned armed forces officers",2022,0.0
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2022,101.55
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2022,259.592
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2022,376.659
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2022,229.266
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2022,313.323
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2022,188.72
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2022,179.894
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2022,321.373
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2022,284.292
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2022,158.368
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2022,178.089
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2022,63.834
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2022,338.882
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2022,167.017
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2022,65.949
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2022,67.154
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2022,65.201
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2022,144.238
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2022,30.134
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2022,155.626
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2022,332.322
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2022,118.021
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2022,151.595
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2022,208.665
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2022,7.531
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2022,524.617
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2022,341.424
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2022,28.792
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2022,238.338
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2022,106.121
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2022,165.308
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2022,21.71
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2022,538.84
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2022,106.577
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2022,63.902
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2022,305.784
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2022,105.737
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2022,85.728
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 01 - Commissioned armed forces officers",2022,0.159
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2022,46.04
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2022,228.616
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2022,177.856
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2022,201.772
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2022,128.263
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2022,511.455
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2022,476.891
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2022,363.803
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2022,75.072
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2022,245.538
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2022,31.913
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2022,184.918
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2022,549.435
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2022,199.272
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2022,17.146
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2022,313.64
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2022,227.293
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2022,307.999
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2022,52.086
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2022,391.84
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2022,571.099
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2022,523.11
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2022,48.599
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2022,48.193
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2022,1.014
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2022,13.196
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2022,10.754
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2022,10.314
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2022,8.093
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2022,47.607
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2022,72.034
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2022,7.254
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2022,43.811
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2022,134.996
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2022,25.921
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2022,86.515
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2022,98.025
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2022,13.585
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2021,75.564
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2021,235.489
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2021,367.183
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2021,248.507
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2021,290.784
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2021,170.599
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2021,185.465
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2021,300.123
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2021,268.08
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2021,152.466
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2021,163.054
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2021,61.12
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2021,346.969
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2021,156.268
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2021,61.385
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2021,60.278
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2021,63.208
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2021,137.811
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2021,34.901
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2021,151.731
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2021,318.074
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2021,106.469
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2021,142.551
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2021,212.004
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2021,5.789
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2021,477.215
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2021,352.664
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2021,27.323
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2021,224.875
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2021,118.902
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2021,162.495
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2021,19.383
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2021,515.879
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2021,105.608
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2021,72.204
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2021,307.131
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2021,91.437
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2021,91.613
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2021,39.812
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2021,193.894
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2021,172.702
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2021,197.605
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2021,127.822
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2021,494.273
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2021,464.009
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2021,330.281
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2021,69.194
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2021,247.159
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2021,33.391
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2021,164.94
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2021,517.526
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2021,200.286
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2021,18.429
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2021,306.919
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2021,217.504
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2021,307.187
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2021,46.935
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2021,353.316
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2021,554.206
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2021,489.376
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2021,45.749
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2021,67.245
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2021,0.996
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2021,9.316
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2021,6.804
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2021,10.488
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2021,5.413
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2021,49.3
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2021,70.84
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2021,5.788
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2021,34.256
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2021,136.529
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2021,30.542
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2021,73.469
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2021,98.618
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2021,14.293
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2020,62.22
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2020,199.635
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2020,364.755
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2020,217.764
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2020,306.512
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2020,165.644
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2020,179.483
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2020,302.972
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2020,242.624
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2020,135.657
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2020,163.304
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2020,53.904
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2020,339.362
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2020,141.564
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2020,66.965
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2020,61.099
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2020,70.843
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2020,142.548
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2020,28.922
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2020,125.505
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2020,308.699
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2020,91.042
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2020,131.756
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2020,223.646
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2020,6.705
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2020,472.042
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2020,343.864
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2020,28.485
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2020,231.44
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2020,115.761
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2020,163.491
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2020,21.27
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2020,515.214
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2020,108.875
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2020,77.271
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2020,297.481
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2020,88.332
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2020,94.705
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2020,22.992
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2020,182.487
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2020,159.737
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2020,193.578
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2020,115.335
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2020,480.494
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2020,462.377
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2020,318.908
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2020,61.722
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2020,227.159
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2020,26.434
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2020,162.85
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2020,482.889
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2020,166.82
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2020,16.636
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2020,330.723
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2020,234.442
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2020,317.178
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2020,41.276
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2020,316.885
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2020,535.293
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2020,463.814
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2020,48.602
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2020,65.171
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2020,0.401
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2020,8.771
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2020,3.686
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2020,12.385
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2020,5.673
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2020,47.133
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2020,73.421
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2020,6.96
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2020,31.432
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2020,130.266
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2020,31.817
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2020,70.903
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2020,90.732
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2020,12.962
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2019,57.789
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2019,208.188
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2019,313.683
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2019,223.952
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2019,288.37
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2019,153.854
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2019,176.764
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2019,302.437
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2019,240.492
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2019,154.464
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2019,166.58
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2019,59.29
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2019,335.536
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2019,167.415
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2019,58.874
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2019,57.979
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2019,76.289
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2019,134.584
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2019,30.808
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2019,146.236
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2019,313.004
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2019,84.283
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2019,136.052
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2019,212.679
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2019,8.841
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2019,532.471
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2019,358.502
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2019,32.862
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2019,224.689
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2019,129.385
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2019,172.188
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2019,22.098
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2019,557.796
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2019,114.506
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2019,68.564
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2019,306.627
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2019,104.529
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2019,87.98
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2019,25.555
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2019,153.514
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2019,140.077
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2019,195.607
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2019,112.864
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2019,464.599
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2019,428.812
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2019,306.205
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2019,63.673
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2019,219.51
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2019,34.615
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2019,164.419
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2019,523.42
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2019,189.294
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2019,14.645
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2019,298.379
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2019,273.448
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2019,304.628
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2019,47.311
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2019,389.969
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2019,576.257
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2019,478.142
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2019,45.543
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2019,63.968
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2019,0.334
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2019,8.277
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2019,6.755
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2019,11.857
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2019,7.132
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2019,43.283
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2019,72.705
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2019,7.793
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2019,38.379
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2019,134.461
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2019,28.793
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2019,70.715
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2019,95.88
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2019,16.253
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2018,82.146
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2018,192.809
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2018,338.649
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2018,241.928
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2018,267.244
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2018,153.444
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2018,161.388
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2018,285.575
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2018,219.628
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2018,143.232
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2018,158.068
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2018,55.986
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2018,317.548
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2018,155.932
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2018,60.268
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2018,52.44
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2018,69.758
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2018,140.275
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2018,29.645
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2018,143.2
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2018,308.412
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2018,78.3
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2018,134.966
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2018,210.862
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2018,7.258
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2018,525.196
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2018,357.841
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2018,28.692
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2018,231.634
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2018,130.303
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2018,172.408
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2018,23.178
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2018,533.856
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2018,100.438
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2018,76.505
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2018,304.115
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2018,98.294
+Australia,Male,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2018,87.145
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 11 - Chief executives, senior officials and legislators",2018,35.128
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 12 - Administrative and commercial managers",2018,159.058
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 13 - Production and specialised services managers",2018,135.63
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 14 - Hospitality, retail and other services managers",2018,188.696
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 21 - Science and engineering professionals",2018,112.222
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 22 - Health professionals",2018,440.938
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 23 - Teaching professionals",2018,432.553
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 24 - Business and administration professionals",2018,288.741
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 25 - Information and communications technology professionals",2018,47.341
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 26 - Legal, social and cultural professionals",2018,217.783
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 31 - Science and engineering associate professionals",2018,28.507
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 32 - Health associate professionals",2018,160.226
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 33 - Business and administration associate professionals",2018,501.813
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 34 - Legal, social, cultural and related associate professionals",2018,178.808
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 35 - Information and communications technicians",2018,15.531
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 41 - General and keyboard clerks",2018,294.689
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 42 - Customer services clerks",2018,245.979
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 43 - Numerical and material recording clerks",2018,314.877
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 44 - Other clerical support workers",2018,46.222
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 51 - Personal service workers",2018,378.88
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 52 - Sales workers",2018,598.204
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 53 - Personal care workers",2018,455.596
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 54 - Protective services workers",2018,42.196
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 61 - Market-oriented skilled agricultural workers",2018,52.826
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 62 - Market-oriented skilled forestry, fishery and hunting workers",2018,0.675
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 71 - Building and related trades workers, excluding electricians",2018,7.574
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 72 - Metal, machinery and related trades workers",2018,4.701
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 73 - Handicraft and printing workers",2018,10.938
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 74 - Electrical and electronic trades workers",2018,4.117
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 75 - Food processing, wood working, garment and other craft and related trades workers",2018,48.993
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 81 - Stationary plant and machine operators",2018,72.031
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 82 - Assemblers",2018,7.477
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 83 - Drivers and mobile plant operators",2018,33.944
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 91 - Cleaners and helpers",2018,138.69
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 92 - Agricultural, forestry and fishery labourers",2018,27.976
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 93 - Labourers in mining, construction, manufacturing and transport",2018,62.888
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 94 - Food preparation assistants",2018,88.247
+Australia,Female,"Occupation (ISCO-08), 2 digit level: 96 - Refuse workers and other elementary workers",2018,15.415
