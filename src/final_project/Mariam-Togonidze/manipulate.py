@@ -3,6 +3,7 @@ Data manipulation and feature engineering module for final project.
 """
 import os
 import pandas as pd
+from . import data
 
 def run():
     raw_path = os.path.join("data", "final_project", "Mariam-Togonidze", "macro_growth_debt.csv")
@@ -10,7 +11,6 @@ def run():
     
     # Load raw data
     if not os.path.exists(raw_path):
-        import data
         df = data.run()
     else:
         df = pd.read_csv(raw_path)
