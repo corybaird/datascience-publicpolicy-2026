@@ -3,11 +3,11 @@ Data manipulation and feature engineering module for final project.
 """
 import os
 import pandas as pd
-from . import data
+import data
 
 def run():
-    raw_path = os.path.join("data", "final_project", "Mariam-Togonidze", "macro_growth_debt.csv")
-    processed_path = os.path.join("data", "final_project", "Mariam-Togonidze", "processed_macro_data.csv")
+    raw_path = os.path.join("data", "final_project", "Mariam -Togonidze", "macro_growth_debt.csv")
+    processed_path = os.path.join("data", "final_project", "Mariam -Togonidze", "processed_macro_data.csv")
     
     # Load raw data
     if not os.path.exists(raw_path):

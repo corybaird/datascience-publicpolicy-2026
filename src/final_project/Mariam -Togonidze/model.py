@@ -6,7 +6,7 @@ import pandas as pd
 import statsmodels.api as sm
 
 def run():
-    processed_path = os.path.join("data", "final_project", "Mariam-Togonidze", "processed_macro_data.csv")
+    processed_path = os.path.join("data", "final_project", "Mariam -Togonidze", "processed_macro_data.csv")
     df = pd.read_csv(processed_path)
 
     # Define variables

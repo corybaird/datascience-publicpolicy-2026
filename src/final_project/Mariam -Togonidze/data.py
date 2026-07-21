@@ -6,7 +6,7 @@ import pandas as pd
 
 def run():
     # Folder paths
-    output_dir = os.path.join("data", "final_project", "Mariam-Togonidze")
+    output_dir = os.path.join("data", "final_project", "Mariam -Togonidze")
     os.makedirs(output_dir, exist_ok=True)
     file_path = os.path.join(output_dir, "macro_growth_debt.csv")
     
