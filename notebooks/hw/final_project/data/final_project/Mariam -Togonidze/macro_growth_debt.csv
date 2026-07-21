@@ -1,0 +1,9 @@
+date,country,country_name,rgdpmad,debtgdp,gov_revenue_gdp
+1981,CAN,Canada,15000,35.2,38.1
+1982,CAN,Canada,15779,39.5,39.1
+1983,CAN,Canada,16076,38.9,38.8
+1984,CAN,Canada,16835,38.0,38.1
+1981,USA,United States,25000,42.1,28.2
+1982,USA,United States,25500,44.0,27.5
+1983,USA,United States,26200,46.2,27.9
+1984,USA,United States,27100,47.1,28.4
