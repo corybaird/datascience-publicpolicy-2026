@@ -1,0 +1,36 @@
+2026-07-22 21:10:47,178 - INFO - Loading data for PanelRegressionModel
+=== Regression Results Summary ===
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:      china_debt_change   R-squared:                        0.1248
+Estimator:                   PanelOLS   R-squared (Between):             -0.3157
+No. Observations:                 440   R-squared (Within):               0.1248
+Date:                Wed, Jul 22 2026   R-squared (Overall):              0.1028
+Time:                        21:10:47   Log-likelihood                   -9414.8
+Cov. Estimator:            Unadjusted                                           
+                                        F-statistic:                      20.208
+Entities:                          12   P-value                           0.0000
+Avg Obs:                       36.667   Distribution:                   F(3,425)
+Min Obs:                       22.000                                           
+Max Obs:                       44.000   F-statistic (robust):             20.208
+                                        P-value                           0.0000
+Time periods:                      44   Distribution:                   F(3,425)
+Avg Obs:                      10.0000                                           
+Min Obs:                       5.0000                                           
+Max Obs:                       12.000                                           
+                                                                                
+                                    Parameter Estimates                                    
+===========================================================================================
+                         Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-------------------------------------------------------------------------------------------
+const                    6.851e+07  8.584e+07     0.7980     0.4253  -1.002e+08   2.372e+08
+borrower_gdp_growth      7.979e+06  5.985e+06     1.3330     0.1832  -3.786e+06   1.974e+07
+china_gdp_growth        -9.529e+06  8.637e+06    -1.1032     0.2705  -2.651e+07   7.448e+06
+china_growth_x_post_gfc  4.569e+07  6.739e+06     6.7800     0.0000   3.244e+07   5.893e+07
+===========================================================================================
+
+F-test for Poolability: 3.3442
+P-value: 0.0002
+Distribution: F(11,425)
+
+Included effects: Entity
