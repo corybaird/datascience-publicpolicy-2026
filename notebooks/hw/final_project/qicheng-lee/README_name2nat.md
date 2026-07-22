@@ -4,22 +4,18 @@ Two separate models are trained — one for first names, one for last names — 
 
 ## Repository Structure
 
+Paths below are relative to the repo root.
+
 ```
-├── data/
-│   ├── raw/
-│   │   ├── name_dataset.zip      # Source dataset (~4.7M names across 105 countries)
-│   │   ├── firstname.csv          # First names to predict nationalities for
-│   │   └── lastname.csv           # Last names to predict nationalities for
-│   └── output/
-│       └── name-dataset/
-│           ├── firstname_nat_predictions.csv   # Predicted nationalities for first names
-│           └── lastname_nat_predictions.csv    # Predicted nationalities for last names
-├── name-dataset/
-│   ├── name-dataset.ipynb         # Main notebook: data prep, training, evaluation
-│   ├── rnn_firstname_nat.pth      # Trained first name model weights
-│   └── rnn_lastname_nat.pth       # Trained last name model weights
-├── README.md
-└── LICENSE
+├── data/final_project/qicheng-lee/
+│   └── raw/
+│       └── name_dataset.zip              # Source dataset (~4.7M names, 105 countries) - gitignored, see "Reproducing" below
+└── notebooks/hw/final_project/qicheng-lee/
+    ├── name-dataset.ipynb                # Main notebook: data prep, training, evaluation
+    ├── name_dataset_cache_50000.pkl      # Pickled/filtered dataset cache - gitignored, auto-rebuilt from the zip on first run
+    ├── rnn_firstname_nat.pth             # Trained first name model weights (committed)
+    ├── rnn_lastname_nat.pth              # Trained last name model weights (committed)
+    └── README_name2nat.md                # This file
 ```
 
 ## References
@@ -27,6 +23,15 @@ Two separate models are trained — one for first names, one for last names — 
 - [Name Dataset](https://github.com/philipperemy/name-dataset) — source of the ~4.7 million first/last name records across 105 countries
 - [name2nat](https://github.com/Kyubyong/name2nat) — prior work on name-to-nationality prediction
 - [PyTorch RNN/LSTM/GRU notebook](https://www.kaggle.com/code/sharanharsoor/pytorch-rnn-lstm-gru) — basis for the model architecture
+
+## Reproducing: Getting the Raw Dataset
+
+`data/final_project/qicheng-lee/raw/name_dataset.zip` is not tracked in git (see `.gitignore`). To reproduce the notebook from scratch:
+
+1. Download `name_dataset.zip` from Google Drive: https://drive.google.com/file/d/1QDbtPWGQypYxiS4pC_hHBBtbRHk9gEtr/view
+2. Save it to `data/final_project/qicheng-lee/raw/name_dataset.zip` (create the `raw/` folder if it doesn't exist).
+3. Delete any stale `notebooks/hw/final_project/qicheng-lee/name_dataset_cache_*.pkl` file if present, so the notebook rebuilds the cache from the zip instead of reusing an old one.
+4. Run `name-dataset.ipynb` top to bottom (Restart & Run All) — the first cell load will take a few minutes and will regenerate the pickle cache.
 
 ## Data
 
