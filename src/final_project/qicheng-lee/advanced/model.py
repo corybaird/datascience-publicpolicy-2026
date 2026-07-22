@@ -1,11 +1,12 @@
 import pandas as pd
 import statsmodels.api as sm
-from pathlib import Path
+
+from paths import PROJECT_ROOT
 
 
 class EconometricModeling:
     def run(self):
-        project_root = Path(__file__).resolve().parents[4]
+        project_root = PROJECT_ROOT
         data_file = project_root / "data/final_project/qicheng-lee/clean/state_cross_section.csv"
         if not data_file.exists():
             raise FileNotFoundError(f"{data_file} not found. Run manipulate stage first.")

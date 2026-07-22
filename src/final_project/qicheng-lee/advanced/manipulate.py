@@ -4,10 +4,11 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
-from pathlib import Path
 from tqdm import tqdm
 
-dict_dir = (Path(__file__).resolve().parents[4] / "references/dictionaries/final_project/qicheng-lee").resolve()
+from paths import PROJECT_ROOT
+
+dict_dir = (PROJECT_ROOT / "references/dictionaries/final_project/qicheng-lee").resolve()
 if str(dict_dir) not in sys.path:
     sys.path.insert(0, str(dict_dir))
 from nationality_mapping import bucket_nationality
@@ -79,8 +80,7 @@ def infer(net, name):
 
 class NationalityPredictor:
     def __init__(self, model_dir="notebooks/hw/final_project/qicheng-lee"):
-        project_root = Path(__file__).resolve().parents[4]
-        model_dir = project_root / model_dir
+        model_dir = PROJECT_ROOT / model_dir
         n_hidden = 256
 
         self.net_first = GRU_net(n_letters, n_hidden, len(nationalities))
@@ -118,7 +118,7 @@ class DataManipulation:
         self.predictor = NationalityPredictor()
 
     def run(self):
-        project_root = Path(__file__).resolve().parents[4]
+        project_root = PROJECT_ROOT
         raw_file = project_root / "data/final_project/qicheng-lee/raw/annual_patents_raw.csv"
         if not raw_file.exists():
             raise FileNotFoundError(f"{raw_file} not found. Run download stage first.")
@@ -135,16 +135,33 @@ class DataManipulation:
             long_rows.append(sub.dropna(subset=["inventor_id", "inventor_name"]))
         long_df = pd.concat(long_rows, ignore_index=True)
 
-        # Classify each unique inventor once
-        unique_inv = long_df.drop_duplicates("inventor_id")[["inventor_id", "inventor_name"]].copy()
-        unique_inv[["first_name", "last_name"]] = unique_inv["inventor_name"].apply(
-            lambda n: pd.Series(split_name(n))
-        )
+        # Classification is the expensive step (~11 min for the full 244,957-inventor
+        # pool), so results are cached by inventor_id and reused across runs. Only
+        # inventor_ids not already in the cache get sent through the GRU models.
+        clean_dir = project_root / "data/final_project/qicheng-lee/clean"
+        clean_dir.mkdir(parents=True, exist_ok=True)
+        cache_file = clean_dir / "inventor_predictions_cache.csv"
+        if cache_file.exists():
+            cached_predictions = pd.read_csv(cache_file)
+        else:
+            cached_predictions = pd.DataFrame(columns=["inventor_id", "predicted_label"])
 
-        predictions = []
-        for _, row in tqdm(unique_inv.iterrows(), total=len(unique_inv), desc="Classifying inventors"):
-            predictions.append(self.predictor.predict(row["first_name"], row["last_name"]))
-        unique_inv["predicted_label"] = predictions
+        unique_inv = long_df.drop_duplicates("inventor_id")[["inventor_id", "inventor_name"]].copy()
+        unique_inv = unique_inv.merge(cached_predictions, on="inventor_id", how="left")
+
+        to_classify = unique_inv[unique_inv["predicted_label"].isna()].copy()
+        print(f"{len(unique_inv) - len(to_classify)} inventor predictions loaded from cache; "
+              f"classifying {len(to_classify)} new inventors.")
+        if not to_classify.empty:
+            to_classify[["first_name", "last_name"]] = to_classify["inventor_name"].apply(
+                lambda n: pd.Series(split_name(n))
+            )
+            new_predictions = []
+            for _, row in tqdm(to_classify.iterrows(), total=len(to_classify), desc="Classifying inventors"):
+                new_predictions.append(self.predictor.predict(row["first_name"], row["last_name"]))
+            unique_inv.loc[to_classify.index, "predicted_label"] = new_predictions
+
+        unique_inv[["inventor_id", "predicted_label"]].to_csv(cache_file, index=False)
         unique_inv["nationality_bucket"] = unique_inv["predicted_label"].apply(bucket_nationality)
 
         # Descriptive-only: full 23-category composition of the classified inventor
@@ -156,8 +173,6 @@ class DataManipulation:
         breakdown["share"] = breakdown["inventor_count"] / breakdown["inventor_count"].sum()
         breakdown["nationality_name"] = breakdown["nationality_code"].map(NATIONALITY_NAMES)
 
-        clean_dir = project_root / "data/final_project/qicheng-lee/clean"
-        clean_dir.mkdir(parents=True, exist_ok=True)
         breakdown_file = clean_dir / "nationality_breakdown.csv"
         breakdown.to_csv(breakdown_file, index=False)
         print(f"Nationality breakdown saved to {breakdown_file.relative_to(project_root)} with shape {breakdown.shape}")

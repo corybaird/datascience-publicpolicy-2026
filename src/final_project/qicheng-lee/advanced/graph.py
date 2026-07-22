@@ -1,12 +1,13 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-from pathlib import Path
+
+from paths import PROJECT_ROOT
 
 
 class DataVisualization:
     def run(self):
-        project_root = Path(__file__).resolve().parents[4]
+        project_root = PROJECT_ROOT
         clean_dir = project_root / "data/final_project/qicheng-lee/clean"
         data_file = clean_dir / "state_cross_section.csv"
         if not data_file.exists():
