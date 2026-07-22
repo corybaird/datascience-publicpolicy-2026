@@ -25,14 +25,13 @@ class EconometricModeling:
         X_controlled = sm.add_constant(df[["share_foreign", "log_inventor_count"]])
         fitted_controlled = sm.OLS(y, X_controlled).fit(cov_type="HC1")
 
-        print("=== Model 1: Without Inventor Count Control ===")
-        print(fitted_bivariate.summary())
-        print("\n=== Model 2: With Inventor Count Control (Primary Specification) ===")
-        print(fitted_controlled.summary())
-
-        return {"bivariate": fitted_bivariate.summary(), "controlled": fitted_controlled.summary()}
+        return {"bivariate": fitted_bivariate, "controlled": fitted_controlled}
 
 
 if __name__ == "__main__":
     em = EconometricModeling()
-    em.run()
+    results = em.run()
+    print("=== Model 1: Without Inventor Count Control ===")
+    print(results["bivariate"].summary())
+    print("\n=== Model 2: With Inventor Count Control (Primary Specification) ===")
+    print(results["controlled"].summary())
